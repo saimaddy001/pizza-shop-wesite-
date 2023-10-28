@@ -1,0 +1,56 @@
+#background-video {
+    position: fixed; /* Ensure it covers the entire viewport */
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Place it behind other content */
+  }
+.ceter{
+    padding-top: 60px;
+    margin-top: 69px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}  
+.ceter h1{
+    font-size: 50px;
+}
+.ceter h2{
+    font-size: 30px;
+    margin-top: -10px;
+}
+.ceter button{
+    gap: 20px;
+}
+.ceter .get1
+.ceter.get{
+    display: flex;
+    display:inline-flex;
+    flex-direction: row;
+}
+.ceter .get{
+    border: 3px solid #000;
+    border-color: solid  black;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 20px;
+    color: black;
+    
+}
+.ceter .get1 {
+    border: 3px solid white;
+    border-color: solid white;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 20px;
+    color: black;
+    
+}
+.ceter svg{
+    font-size: 20px;
+    margin-top: -20px;
+    padding-top: -20px;
+    background-color: white;
+}

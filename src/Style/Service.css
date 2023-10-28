@@ -1,0 +1,39 @@
+
+.menu {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .menuTitle {
+    font-family: cursive;
+    font-size: 36px;
+    margin: 20px;
+  }
+  
+  .Service_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .Service_View {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .Service_View img {
+    max-width: 50%;
+    height: 50%;
+    border-radius: 5px;
+  }
+  
+  
